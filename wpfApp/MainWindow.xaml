@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:wpfApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <TextBox x:Name="TextBox" Margin="0,10" Height="20" Width="200"></TextBox>
+        <Button x:Name="PushButton" Width="200" Margin="0,5" Click="PushButton_OnClick">
+            <TextBlock Text="Push"></TextBlock>
+        </Button>
+        <Button x:Name="PopButton" Width="200" Margin="0,5" Click="PopButton_OnClick">
+            <TextBlock Text="Pop"></TextBlock>
+        </Button>
+        <Label x:Name="Label" Width="200" Margin="0,20"/>
+    </StackPanel>
 </Window>

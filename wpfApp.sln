@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfApp", "wpfApp\wpfApp.csproj", "{784E6841-8477-4086-8388-121E123BDF72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfApp1", "wpfApp\wpfApp1.csproj", "{784E6841-8477-4086-8388-121E123BDF72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

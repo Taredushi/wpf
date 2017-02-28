@@ -20,9 +20,30 @@ namespace wpfApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private CustomStack _stack;
         public MainWindow()
         {
             InitializeComponent();
+            _stack = new CustomStack();
+        }
+
+        private void PushButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            _stack.Push(TextBox.Text);
+            Label.Content = _stack.Top();
+        }
+
+        private void PopButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_stack.Empty())
+            {
+                Label.Content = "Pusty stos";
+            }
+            else
+            {
+                _stack.Pop();
+                Label.Content = _stack.Empty() ? "Pusty stos" : _stack.Top();
+            }
         }
     }
 }
