@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid x:Name="Grid" KeyDown="MyCanvas_OnKeyDown">
-        <Canvas x:Name="MyCanvas" Background="Aquamarine"
+        <Canvas x:Name="MyCanvas"
                 MouseDown="MyCanvas_OnMouseDown"
                 MouseUp="MyCanvas_OnMouseUp"
                 MouseMove="MyCanvas_OnMouseMove" ClipToBounds="True" />
